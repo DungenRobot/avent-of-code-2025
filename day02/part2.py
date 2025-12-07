@@ -19,8 +19,6 @@ def main():
 
             for x in range(int(start), int(end) + 1):
 
-                l = len(str(x))
-
                 if re.match('^(.+)\\1{1,}$', str(x)):
                     total += x
                 
